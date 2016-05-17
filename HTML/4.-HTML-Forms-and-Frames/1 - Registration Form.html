@@ -8,12 +8,12 @@
     <form action="#" method="post">
       <table border="1px">
         <tr>
-          <th>Last</th>
-          <td><input type="text" class="lastname" /></td>
+          <th>Last Name</th>
+          <td><input type="text" name="LastName" class="lastname" /></td>
         </tr>
         <tr>
           <th>First Name</th>
-          <td><input type="text" class="firstname" /></td>
+          <td><input type="text" name="FirstName" class="firstname" /></td>
         </tr>
         <tr>
           <th>Address</th>
@@ -21,16 +21,16 @@
         </tr>
         <tr>
           <th>City</th>
-          <td><input type="text" class="city" size="5" />
-            State<input type="text" class="lastname" size="5" /></td>
+          <td><input type="text" name="City" class="city" size="5" />
+            State<input type="text" name="State" class="state" size="5" /></td>
         </tr>
         <tr>
           <th>Zip/Postal/Copy</th>
-          <td><input type="text" class="zip" /></td>
+          <td><input type="text" name="Zipcode" class="zip" /></td>
         </tr>
         <tr>
-          <th>City</th>
-          <td><select name="city" id="city">
+          <th>Country</th>
+          <td><select name="Country" id="country">
             <option value="Bulgaria">Bulgaria</option>
             <option value="Macedonia">Macedonia</option>
             <option value="Romania">Romania</option>
@@ -46,11 +46,11 @@
         </tr>
         <tr>
           <th>Email</th>
-          <td><input type="text" class="email" />
+          <td><input type="text" name="email" class="email" />
         </tr>
         <tr>
           <th>Birth date</th>
-          <td><input type="text" placeholder="dd.mm.yyyy" class="email" />
+          <td><input type="text" name="BirthDate" placeholder="dd.mm.yyyy" class="email" />
         </tr>
         <tr>
           <th>Gender</th>
@@ -62,16 +62,16 @@
         </tr>
         <tr>
           <th>Starting Date</th>
-          <td><input type="radio" name="Date" value="date" /> Spring 2016 <br/>
-            <input type="radio" name="date" value="date" /> Summer 2016
+          <td><input type="radio" name="StartDate" value="Spring2016" /> Spring 2016 <br/>
+            <input type="radio" name="StartDate" value="Summer2016" /> Summer 2016
           </td>
         </tr>
         <tr>
           <th>Comments & Questions</th>
-          <td><textarea name="coments" rows="5" cols="15"></textarea></td>
+          <td><textarea name="Comments" rows="5" cols="15"></textarea></td>
         </tr>
         <tr>
-          <td colspan="2" style="background-color:lightblue;" align=middle>
+          <td colspan="2" style="background-color:lightblue;" align="middle">
             <input type="submit" value="Submit" />
             <input type="reset"  value="Clear Form" /></td>
         </tr>
