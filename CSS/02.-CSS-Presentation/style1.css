@@ -1,0 +1,15 @@
+p{
+  width: 800px;
+  font-family: Consolas;
+  color: #0094ff;
+  text-align: justify;
+}
+
+span{
+  font-weight: bold;
+}
+
+.capital{
+  font-family: Edwardian Script ITC;
+  font-size: 50px;
+}

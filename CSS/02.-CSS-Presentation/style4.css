@@ -1,0 +1,181 @@
+#main{
+	width: 400px;
+	height: 400px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+50,d5ebfb+100 */
+	background: #ebf1f6; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #ebf1f6 0%, #abd3ee 50%, #d5ebfb 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #ebf1f6 0%,#abd3ee 50%,#d5ebfb 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #ebf1f6 0%,#abd3ee 50%,#d5ebfb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-radius: 5px;
+
+}
+
+.title{
+	height: 8%;
+	font-size: 15px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	font-family: Arial;
+
+}
+
+.icon{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.buttons{
+	margin-right: 5px;
+}
+
+.shadow:hover{
+	box-shadow: 2px 2px 10px #F00;
+}
+
+.calcbody1{
+	position: relative;
+	width: 97%;
+	height: 90%;
+	left: 5px;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+
+.menu{
+	position: relative;
+	font-family: Arial;
+	font-size: 11px;
+	padding: 2px;
+	border-bottom: 1px solid #b6bccc;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eee 0%, #ccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #eee 0%,#ccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #eee 0%,#ccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+a:link{
+	padding: 2px;
+  text-decoration: none;
+	color: #000;
+}
+
+a:visited{
+  text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+  background-color: #FFF;
+}
+
+.calcbody2{
+	position: absolute;
+	width: 100%;
+	height: 95%;
+	background-color: #d5ebfb;
+}
+
+input[type=text]{
+	position: relative;
+	top: 5px;
+	left: 8px;
+	width: 95%;
+	height: 15%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2ebf9+0,feffff+100 */
+	background: #d2ebf9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d2ebf9 0%, #fff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #d2ebf9 0%,#fff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #d2ebf9 0%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ebf9', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #000;
+	box-shadow: 0 0 1pt 1pt white inset;
+	border-radius: 2px;
+	text-align: right;
+	font-size: 25px;
+	font-family: Consolas;
+}
+
+
+
+#binary{
+	position: relative;
+	top: 10px;
+	left: 8px;
+	background-color: inherit;
+	border: 1px solid #8696aa;
+	box-shadow: 0 0 1pt 1pt white inset;
+	border-radius: 3px;
+	font-family: Consolas;
+	font-size: 10px;
+	color: #1e395b;
+	padding: 2px;
+	width: 96%;
+}
+
+.grey{
+	color: #808080;
+}
+
+fieldset{
+	position: relative;
+	top: 15px;
+	left: 6px;
+	width: 15%;
+	border: 1px solid #8696aa;
+	border-radius: 2px;
+	font-family: Consolas;
+	font-size: 12px;
+	color: #1e395b;
+	margin-top:5px;
+}
+
+table.numbers {
+	position: absolute;
+  top: 145px;
+  left: 85px;
+  font-family: Consolas;
+  font-size: 15px;
+  color: #1e395b;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+table.numbers td {
+    border: 1px solid #8696aa;
+    border-radius: 3px;
+    width: 30px;
+    height: 25px;
+    padding: 0;
+}
+
+table.numbers td.grayborder {
+    border: 1px solid #C1CEDC;
+}
+
+table.numbers td.bck1 {
+	background: -webkit-linear-gradient(top, #F0F5FB 0%, #DFEDD3 87%, #D2DEEC 100%);
+	background: -o-linear-gradient(top, #F0F5FB 0%, #DFEDD3 87%, #D2DEEC 100%);
+	background: -ms-linear-gradient(top, #F0F5FB 0%, #DFEDD3 87%, #D2DEEC 100%);
+	background: -moz-linear-gradient(top, #F0F5FB 0%, #DFEDD3 87%, #D2DEEC 100%);
+	background: linear-gradient(to bottom, #F0F5FB 0%, #DFEDD3 87%, #D2DEEC 100%);
+}
+
+table.numbers td.bck2 {
+	background: #EEF4FC;
+}
+
+table.numbers td.bck1:hover, table.numbers td.bck2:hover {
+background: -webkit-linear-gradient(top, #FDF0F0 0%, #FEE1A9 37%, #D1F9D2 52%, #dbd8a3 96%, rgb(233, 231, 192) 100%);
+background: -o-linear-gradient(top, #FDF0F0 0%, #FEE1A9 37%, #D1F9D2 52%, #dbd8a3 96%, rgb(233, 231, 192) 100%);
+background: -ms-linear-gradient(top, #FDF0F0 0%, #FEE1A9 37%, #D1F9D2 52%, #dbd8a3 96%, rgb(233, 231, 192) 100%);
+background: -moz-linear-gradient(top, #FDF0F0 0%, #FEE1A9 37%, #D1F9D2 52%, #dbd8a3 96%, rgb(233, 231, 192) 100%);
+background: linear-gradient(to bottom, #FDF0F0 0%, #FEE1A9 37%, #D1F9D2 52%, #dbd8a3 96%, rgb(233, 231, 192) 100%);
+border: 1px solid #FBE772;
+box-shadow: 0px 0px 5px orange;
+}
