@@ -1,0 +1,19 @@
+.tableone {
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+th{
+  border: 2px;
+  border-bottom-style: solid;
+}
+
+.table {
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+fieldset{
+  border: 2px solid;
+  border-radius: 4px;
+}

@@ -1,0 +1,23 @@
+table{
+  border: 1px solid #888888;
+  border-radius:10px;
+  background-color: #E0E0E0;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+tbody{
+  font-size: 12px;
+  font-family: Arial;
+  background-color: #FFFFFF;
+}
+
+button {
+  width: 22px;
+  height: 22px;
+  margin-left: 6px;
+  border: none;
+  background-color: inherit;
+  font-size: 10px;
+  font-family: Arial;
+}
