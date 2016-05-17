@@ -1,0 +1,37 @@
+body{
+  background-color: #303030;
+}
+
+table {
+  text-align: left;
+  font-family: arial;
+  font-size: 12px;
+}
+
+td:nth-of-type(1){
+  color: #FFFFFF;
+  font-style: italic;
+}
+
+th{
+  font-family: verdana;
+  color: #9ACD32;
+  font-size: 20px;
+}
+
+#red, #status{
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.time{
+  color: #778899;
+}
+
+#name, #email, #link{
+  color:#FFD700;
+}
+
+img{
+  height: 10px;
+}
